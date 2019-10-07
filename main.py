@@ -10,7 +10,7 @@ if __name__ == '__main__':
                 print(r)
                 # if r != 200: сделать ping -проверить доступнсть
             # except Exception: # разобрать
-            #     r = -1
+            #     r = -1---
             except requests.ConnectionError:
                 print('something network trouble')
             except requests.RequestException:
